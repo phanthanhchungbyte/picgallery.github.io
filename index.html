@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Final Project</h1>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <p>Simple Photo Gallery as the final project of the <b>Coursera course.</b></p>
+      <p>This site features all of my favourite paragraphs that I have search from the Internet. All of them are girls with special features and strong physique.</p>
+    </section>
+    <div class = "grid">
+        <figure>
+        <img src="images/920218.png" alt="Red" width="200">
+        <figcaption>Violet Dream</figcaption>
+        </figure>
+        <figure>
+        <img src="images/fiery.jpg" alt="Orange" width="200">
+        <figcaption>Fiery Rage</figcaption>
+        </figure>
+        <figure>
+        <img src="images/girl_with_chainsaw.jpg" alt="Yellow" width="200">
+        <figcaption>Silent Killer</figcaption>
+        </figure>
+        <figure>
+        <img src="images/girl_with_flower.png" alt="Green" width="200">
+        <figcaption>Bliss</figcaption>
+        </figure>
+        <figure>
+        <img src="images/lovesolfege.png" alt="Blue" width="200">
+        <figcaption>Holy Scenery</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Magic.png" alt="Indigo" width="200">
+        <figcaption>Magic</figcaption>
+        </figure>
+        <figure>
+        <img src="images/SugarRush.png" alt="Purple" width="200">
+        <figcaption>Sugar Rush</figcaption>
+        </figure>
+        <figure>
+        <img src="images/TheField.jpg" alt="Pink" width="200">
+        <figcaption>History Revealed</figcaption>
+        </figure>
+        <figure>
+        <img src="images/water_playing.jpg" alt="White" width="200">
+        <figcaption>Fairy Tale</figcaption>
+        </figure>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#top" class="animate">Jump to the Top</a>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+        const htmlElement = document.querySelector('html');
+        htmlElement.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+
+</html>
